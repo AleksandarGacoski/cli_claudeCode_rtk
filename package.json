@@ -1,0 +1,13 @@
+{
+  "name": "playwright-ats-tests",
+  "version": "1.0.0",
+  "description": "Playwright e2e tests for automationteststore.com",
+  "scripts": {
+    "test": "playwright test",
+    "tsc": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.7.0"
+  }
+}
